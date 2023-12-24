@@ -8,13 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1D3D01BDD96E9E73272F8A54 /* Pods_JiShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1313B543935665B204C0EE /* Pods_JiShi.framework */; };
-		3618933A2B37AEB0006E8299 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361893392B37AEB0006E8299 /* Calendar.swift */; };
-		3618933C2B37BAF7006E8299 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3618933B2B37BAF7006E8299 /* DataStore.swift */; };
 		3618933E2B37BB99006E8299 /* EduWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3618933D2B37BB99006E8299 /* EduWrapper.swift */; };
+		366FFCCD2B3809D0001FA11D /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCCC2B3809D0001FA11D /* CalendarHelper.swift */; };
+		366FFCD22B380BF3001FA11D /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCD12B380BF3001FA11D /* WelcomeScreen.swift */; };
+		366FFCD42B380BFE001FA11D /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCD32B380BFE001FA11D /* WelcomeViewModel.swift */; };
+		366FFCD72B380C11001FA11D /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCD62B380C11001FA11D /* NewsListViewModel.swift */; };
+		366FFCD92B380C1A001FA11D /* NewsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCD82B380C1A001FA11D /* NewsListScreen.swift */; };
+		366FFCDC2B380C30001FA11D /* NewsDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCDB2B380C30001FA11D /* NewsDetailScreen.swift */; };
+		366FFCDE2B380C3C001FA11D /* NewsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCDD2B380C3C001FA11D /* NewsDetailViewModel.swift */; };
+		366FFCE12B380C50001FA11D /* HomeListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCE02B380C50001FA11D /* HomeListScreen.swift */; };
+		366FFCEA2B380CAE001FA11D /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCE92B380CAE001FA11D /* CalendarViewModel.swift */; };
+		366FFCEC2B380CB7001FA11D /* ClassroomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCEB2B380CB7001FA11D /* ClassroomScreen.swift */; };
+		366FFCEE2B380CC3001FA11D /* ClassroomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCED2B380CC3001FA11D /* ClassroomViewModel.swift */; };
+		366FFCF02B380CCB001FA11D /* ExamScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCEF2B380CCB001FA11D /* ExamScreen.swift */; };
+		366FFCF22B380CD3001FA11D /* ExamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCF12B380CD3001FA11D /* ExamViewModel.swift */; };
+		366FFCF42B380CDF001FA11D /* QrcodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCF32B380CDF001FA11D /* QrcodeScreen.swift */; };
+		366FFCF62B380CE8001FA11D /* QrcodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCF52B380CE8001FA11D /* QrcodeViewModel.swift */; };
+		366FFCF82B380CF0001FA11D /* ScoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCF72B380CF0001FA11D /* ScoreScreen.swift */; };
+		366FFCFA2B380CF9001FA11D /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCF92B380CF9001FA11D /* ScoreViewModel.swift */; };
+		366FFD022B380D60001FA11D /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD012B380D60001FA11D /* AboutScreen.swift */; };
+		366FFD042B380D69001FA11D /* CampusLoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD032B380D69001FA11D /* CampusLoginScreen.swift */; };
+		366FFD062B380D74001FA11D /* CampusLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD052B380D74001FA11D /* CampusLoginViewModel.swift */; };
+		366FFD082B380D7E001FA11D /* CardLoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD072B380D7E001FA11D /* CardLoginScreen.swift */; };
+		366FFD0A2B380D88001FA11D /* CardLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD092B380D88001FA11D /* CardLoginViewModel.swift */; };
+		366FFD0C2B380D91001FA11D /* PrivacyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD0B2B380D91001FA11D /* PrivacyScreen.swift */; };
+		366FFD0E2B380D9A001FA11D /* SettingListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD0D2B380D9A001FA11D /* SettingListScreen.swift */; };
+		366FFD102B380DA5001FA11D /* SubscriptionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD0F2B380DA5001FA11D /* SubscriptionScreen.swift */; };
+		366FFD122B380DB0001FA11D /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD112B380DB0001FA11D /* SubscriptionViewModel.swift */; };
+		366FFD142B380DF0001FA11D /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFD132B380DF0001FA11D /* CalendarScreen.swift */; };
 		36AF9E402B36B188000142B6 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E3F2B36B188000142B6 /* MainApp.swift */; };
 		36AF9E452B3715E1000142B6 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E442B3715E1000142B6 /* HttpClient.swift */; };
-		36AF9E502B372B83000142B6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E4F2B372B83000142B6 /* HomeScreen.swift */; };
-		36AF9E522B372BA1000142B6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E512B372BA1000142B6 /* HomeViewModel.swift */; };
 		36AF9E542B3736EF000142B6 /* ChannelDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E532B3736EF000142B6 /* ChannelDao.swift */; };
 		36AF9E562B37382D000142B6 /* ArticleDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E552B37382D000142B6 /* ArticleDao.swift */; };
 		36AF9E582B3738CC000142B6 /* CasService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E572B3738CC000142B6 /* CasService.swift */; };
@@ -45,14 +68,37 @@
 
 /* Begin PBXFileReference section */
 		18A7453061ABB55B4A9CD85E /* Pods-JiShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiShi.debug.xcconfig"; path = "Target Support Files/Pods-JiShi/Pods-JiShi.debug.xcconfig"; sourceTree = "<group>"; };
-		361893392B37AEB0006E8299 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
-		3618933B2B37BAF7006E8299 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		3618933D2B37BB99006E8299 /* EduWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduWrapper.swift; sourceTree = "<group>"; };
+		366FFCCC2B3809D0001FA11D /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		366FFCD12B380BF3001FA11D /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		366FFCD32B380BFE001FA11D /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		366FFCD62B380C11001FA11D /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		366FFCD82B380C1A001FA11D /* NewsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListScreen.swift; sourceTree = "<group>"; };
+		366FFCDB2B380C30001FA11D /* NewsDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailScreen.swift; sourceTree = "<group>"; };
+		366FFCDD2B380C3C001FA11D /* NewsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewModel.swift; sourceTree = "<group>"; };
+		366FFCE02B380C50001FA11D /* HomeListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListScreen.swift; sourceTree = "<group>"; };
+		366FFCE92B380CAE001FA11D /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		366FFCEB2B380CB7001FA11D /* ClassroomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomScreen.swift; sourceTree = "<group>"; };
+		366FFCED2B380CC3001FA11D /* ClassroomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomViewModel.swift; sourceTree = "<group>"; };
+		366FFCEF2B380CCB001FA11D /* ExamScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamScreen.swift; sourceTree = "<group>"; };
+		366FFCF12B380CD3001FA11D /* ExamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewModel.swift; sourceTree = "<group>"; };
+		366FFCF32B380CDF001FA11D /* QrcodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrcodeScreen.swift; sourceTree = "<group>"; };
+		366FFCF52B380CE8001FA11D /* QrcodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrcodeViewModel.swift; sourceTree = "<group>"; };
+		366FFCF72B380CF0001FA11D /* ScoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScreen.swift; sourceTree = "<group>"; };
+		366FFCF92B380CF9001FA11D /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		366FFD012B380D60001FA11D /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
+		366FFD032B380D69001FA11D /* CampusLoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusLoginScreen.swift; sourceTree = "<group>"; };
+		366FFD052B380D74001FA11D /* CampusLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusLoginViewModel.swift; sourceTree = "<group>"; };
+		366FFD072B380D7E001FA11D /* CardLoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLoginScreen.swift; sourceTree = "<group>"; };
+		366FFD092B380D88001FA11D /* CardLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLoginViewModel.swift; sourceTree = "<group>"; };
+		366FFD0B2B380D91001FA11D /* PrivacyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyScreen.swift; sourceTree = "<group>"; };
+		366FFD0D2B380D9A001FA11D /* SettingListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListScreen.swift; sourceTree = "<group>"; };
+		366FFD0F2B380DA5001FA11D /* SubscriptionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionScreen.swift; sourceTree = "<group>"; };
+		366FFD112B380DB0001FA11D /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
+		366FFD132B380DF0001FA11D /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
 		36AF9E3F2B36B188000142B6 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		36AF9E442B3715E1000142B6 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		36AF9E462B3727AC000142B6 /* JiShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36AF9E4F2B372B83000142B6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		36AF9E512B372BA1000142B6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		36AF9E532B3736EF000142B6 /* ChannelDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDao.swift; sourceTree = "<group>"; };
 		36AF9E552B37382D000142B6 /* ArticleDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDao.swift; sourceTree = "<group>"; };
 		36AF9E572B3738CC000142B6 /* CasService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasService.swift; sourceTree = "<group>"; };
@@ -103,12 +149,165 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		366FFCCE2B380BCA001FA11D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCD12B380BF3001FA11D /* WelcomeScreen.swift */,
+				366FFCD32B380BFE001FA11D /* WelcomeViewModel.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		366FFCCF2B380BD3001FA11D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCDA2B380C1E001FA11D /* NewsDetail */,
+				366FFCD52B380C03001FA11D /* NewsList */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		366FFCD02B380BE2001FA11D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD002B380D51001FA11D /* About */,
+				366FFCFF2B380D4B001FA11D /* CampusLogin */,
+				366FFCFE2B380D45001FA11D /* CardLogin */,
+				366FFCFD2B380D40001FA11D /* Privacy */,
+				366FFCFC2B380D37001FA11D /* SettingList */,
+				366FFCFB2B380D2E001FA11D /* Subscription */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		366FFCD52B380C03001FA11D /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCD62B380C11001FA11D /* NewsListViewModel.swift */,
+				366FFCD82B380C1A001FA11D /* NewsListScreen.swift */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		366FFCDA2B380C1E001FA11D /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCDB2B380C30001FA11D /* NewsDetailScreen.swift */,
+				366FFCDD2B380C3C001FA11D /* NewsDetailViewModel.swift */,
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		366FFCDF2B380C44001FA11D /* HomeList */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCE02B380C50001FA11D /* HomeListScreen.swift */,
+			);
+			path = HomeList;
+			sourceTree = "<group>";
+		};
+		366FFCE22B380C5F001FA11D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCE92B380CAE001FA11D /* CalendarViewModel.swift */,
+				366FFD132B380DF0001FA11D /* CalendarScreen.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		366FFCE32B380C6A001FA11D /* Classroom */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCEB2B380CB7001FA11D /* ClassroomScreen.swift */,
+				366FFCED2B380CC3001FA11D /* ClassroomViewModel.swift */,
+			);
+			path = Classroom;
+			sourceTree = "<group>";
+		};
+		366FFCE42B380C7C001FA11D /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCEF2B380CCB001FA11D /* ExamScreen.swift */,
+				366FFCF12B380CD3001FA11D /* ExamViewModel.swift */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
+		366FFCE52B380C83001FA11D /* Qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCF32B380CDF001FA11D /* QrcodeScreen.swift */,
+				366FFCF52B380CE8001FA11D /* QrcodeViewModel.swift */,
+			);
+			path = Qrcode;
+			sourceTree = "<group>";
+		};
+		366FFCE62B380C8B001FA11D /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				366FFCF72B380CF0001FA11D /* ScoreScreen.swift */,
+				366FFCF92B380CF9001FA11D /* ScoreViewModel.swift */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		366FFCFB2B380D2E001FA11D /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD0F2B380DA5001FA11D /* SubscriptionScreen.swift */,
+				366FFD112B380DB0001FA11D /* SubscriptionViewModel.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		366FFCFC2B380D37001FA11D /* SettingList */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD0D2B380D9A001FA11D /* SettingListScreen.swift */,
+			);
+			path = SettingList;
+			sourceTree = "<group>";
+		};
+		366FFCFD2B380D40001FA11D /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD0B2B380D91001FA11D /* PrivacyScreen.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		366FFCFE2B380D45001FA11D /* CardLogin */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD072B380D7E001FA11D /* CardLoginScreen.swift */,
+				366FFD092B380D88001FA11D /* CardLoginViewModel.swift */,
+			);
+			path = CardLogin;
+			sourceTree = "<group>";
+		};
+		366FFCFF2B380D4B001FA11D /* CampusLogin */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD032B380D69001FA11D /* CampusLoginScreen.swift */,
+				366FFD052B380D74001FA11D /* CampusLoginViewModel.swift */,
+			);
+			path = CampusLogin;
+			sourceTree = "<group>";
+		};
+		366FFD002B380D51001FA11D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				366FFD012B380D60001FA11D /* AboutScreen.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		36AF9E382B36B155000142B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				36AF9E392B36B155000142B6 /* Page */,
-				36AF9E3B2B36B155000142B6 /* Layout */,
 				36AF9E3C2B36B155000142B6 /* Component */,
+				36AF9E3B2B36B155000142B6 /* Layout */,
+				36AF9E392B36B155000142B6 /* Page */,
 				36AF9E3D2B36B155000142B6 /* Theme */,
 			);
 			path = View;
@@ -118,6 +317,9 @@
 			isa = PBXGroup;
 			children = (
 				36AF9E4E2B372B6A000142B6 /* Home */,
+				366FFCCF2B380BD3001FA11D /* News */,
+				366FFCD02B380BE2001FA11D /* Setting */,
+				366FFCCE2B380BCA001FA11D /* Welcome */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -147,7 +349,6 @@
 			isa = PBXGroup;
 			children = (
 				36AF9E442B3715E1000142B6 /* HttpClient.swift */,
-				3618933B2B37BAF7006E8299 /* DataStore.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -155,8 +356,12 @@
 		36AF9E4E2B372B6A000142B6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				36AF9E4F2B372B83000142B6 /* HomeScreen.swift */,
-				36AF9E512B372BA1000142B6 /* HomeViewModel.swift */,
+				366FFCE22B380C5F001FA11D /* Calendar */,
+				366FFCE32B380C6A001FA11D /* Classroom */,
+				366FFCE42B380C7C001FA11D /* Exam */,
+				366FFCDF2B380C44001FA11D /* HomeList */,
+				366FFCE52B380C83001FA11D /* Qrcode */,
+				366FFCE62B380C8B001FA11D /* Score */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -220,7 +425,7 @@
 		36FF0E4C2B360370003B027F /* System */ = {
 			isa = PBXGroup;
 			children = (
-				361893392B37AEB0006E8299 /* Calendar.swift */,
+				366FFCCC2B3809D0001FA11D /* CalendarHelper.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -461,31 +666,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AF9E5A2B3738D5000142B6 /* EduService.swift in Sources */,
-				3618933C2B37BAF7006E8299 /* DataStore.swift in Sources */,
 				36FF0E7A2B360370003B027F /* MirrorConfig.swift in Sources */,
-				36AF9E522B372BA1000142B6 /* HomeViewModel.swift in Sources */,
+				366FFCEE2B380CC3001FA11D /* ClassroomViewModel.swift in Sources */,
+				366FFD062B380D74001FA11D /* CampusLoginViewModel.swift in Sources */,
+				366FFCEA2B380CAE001FA11D /* CalendarViewModel.swift in Sources */,
 				36FF0E782B360370003B027F /* Channel.swift in Sources */,
-				36AF9E502B372B83000142B6 /* HomeScreen.swift in Sources */,
 				3618933E2B37BB99006E8299 /* EduWrapper.swift in Sources */,
 				36FF0E792B360370003B027F /* Article.swift in Sources */,
 				36AF9E5C2B3738F0000142B6 /* RssService.swift in Sources */,
 				36AF9E452B3715E1000142B6 /* HttpClient.swift in Sources */,
+				366FFCD42B380BFE001FA11D /* WelcomeViewModel.swift in Sources */,
+				366FFCF02B380CCB001FA11D /* ExamScreen.swift in Sources */,
 				36FF0E6B2B360370003B027F /* EduTermResult.swift in Sources */,
+				366FFCF82B380CF0001FA11D /* ScoreScreen.swift in Sources */,
+				366FFD022B380D60001FA11D /* AboutScreen.swift in Sources */,
+				366FFCD72B380C11001FA11D /* NewsListViewModel.swift in Sources */,
+				366FFD0E2B380D9A001FA11D /* SettingListScreen.swift in Sources */,
+				366FFCF42B380CDF001FA11D /* QrcodeScreen.swift in Sources */,
+				366FFCF62B380CE8001FA11D /* QrcodeViewModel.swift in Sources */,
+				366FFD142B380DF0001FA11D /* CalendarScreen.swift in Sources */,
+				366FFCDE2B380C3C001FA11D /* NewsDetailViewModel.swift in Sources */,
+				366FFCD92B380C1A001FA11D /* NewsListScreen.swift in Sources */,
+				366FFD122B380DB0001FA11D /* SubscriptionViewModel.swift in Sources */,
+				366FFD102B380DA5001FA11D /* SubscriptionScreen.swift in Sources */,
+				366FFCFA2B380CF9001FA11D /* ScoreViewModel.swift in Sources */,
 				36FF0E752B360370003B027F /* User.swift in Sources */,
 				36FF0E732B360370003B027F /* EduQueryResult.swift in Sources */,
 				36FF0E712B360370003B027F /* EduScoreResult.swift in Sources */,
 				36FF0E6A2B360370003B027F /* EduBuildingResult.swift in Sources */,
 				36AF9E542B3736EF000142B6 /* ChannelDao.swift in Sources */,
+				366FFD0C2B380D91001FA11D /* PrivacyScreen.swift in Sources */,
 				36FF0E7D2B360370003B027F /* ClassDetail.swift in Sources */,
+				366FFCDC2B380C30001FA11D /* NewsDetailScreen.swift in Sources */,
 				36FF0E702B360370003B027F /* EduRoomResult.swift in Sources */,
 				36FF0E742B360370003B027F /* EduLessonResult.swift in Sources */,
 				36FF0E6F2B360370003B027F /* EduResource.swift in Sources */,
 				36FF0E762B360370003B027F /* Repository.swift in Sources */,
-				3618933A2B37AEB0006E8299 /* Calendar.swift in Sources */,
+				366FFCEC2B380CB7001FA11D /* ClassroomScreen.swift in Sources */,
+				366FFCCD2B3809D0001FA11D /* CalendarHelper.swift in Sources */,
 				36FF0E7B2B360370003B027F /* Homework.swift in Sources */,
+				366FFD042B380D69001FA11D /* CampusLoginScreen.swift in Sources */,
 				36AF9E582B3738CC000142B6 /* CasService.swift in Sources */,
 				36FF0E7C2B360370003B027F /* LessonList.swift in Sources */,
+				366FFCE12B380C50001FA11D /* HomeListScreen.swift in Sources */,
+				366FFCF22B380CD3001FA11D /* ExamViewModel.swift in Sources */,
 				36AF9E5E2B373900000142B6 /* HallService.swift in Sources */,
+				366FFD0A2B380D88001FA11D /* CardLoginViewModel.swift in Sources */,
+				366FFD082B380D7E001FA11D /* CardLoginScreen.swift in Sources */,
+				366FFCD22B380BF3001FA11D /* WelcomeScreen.swift in Sources */,
 				36AF9E562B37382D000142B6 /* ArticleDao.swift in Sources */,
 				36FF0E6E2B360370003B027F /* EduExamResult.swift in Sources */,
 				36FF0E692B360370003B027F /* EduAppConfig.swift in Sources */,

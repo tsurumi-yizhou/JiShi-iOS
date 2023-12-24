@@ -9,5 +9,6 @@ target 'JiShi' do
   pod 'FeedKit'
   pod 'Factory'
   pod 'UIPilot'
+  pod 'AlertToast'
 
 end
