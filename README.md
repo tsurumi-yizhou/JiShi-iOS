@@ -7,7 +7,9 @@
 
 ## Quote
 + [Alamofire](https://github.com/Alamofire/Alamofire)
-+ [Fuzi](https://github.com/cezheng/Fuzi)
 + [WCDB.swift](https://github.com/Tencent/wcdb)
 + [R.swift](https://github.com/mac-cain13/R.swift)
 + [FeedKit](https://github.com/nmdias/FeedKit)
++ [Factory](https://github.com/hmlongco/Factory)
++ [UIPilot](https://github.com/canopas/UIPilot)
++ [AlertToast](https://github.com/elai950/AlertToast)
