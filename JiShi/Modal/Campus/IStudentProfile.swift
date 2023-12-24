@@ -4,5 +4,16 @@
 
 import Foundation
 
-struct IStudentProfile {
+struct IStudentProfile: Codable {
+    let number: String
+    let name: String
+    let school: String
+    let majority: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case number = "XH"
+        case name = "XM"
+        case school = "DWMC"
+        case majority = "ZYMC"
+    }
 }

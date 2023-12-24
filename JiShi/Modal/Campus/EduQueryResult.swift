@@ -4,5 +4,10 @@
 
 import Foundation
 
-struct EduQueryResult {
+struct QueryData: Codable {
+    let cxjwggbbdqx: EduWrapper<String>
+}
+
+struct EduQueryResult: Codable {
+    let datas: QueryData
 }

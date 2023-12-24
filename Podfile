@@ -1,12 +1,13 @@
-platform :ios, '11.0'
+platform :ios, '15.0'
 
 target 'JiShi' do
   use_frameworks!
 
   pod 'Alamofire'
-  pod 'Fuzi'
   pod 'WCDB.swift'
   pod 'R.swift'
   pod 'FeedKit'
+  pod 'Factory'
+  pod 'UIPilot'
 
 end

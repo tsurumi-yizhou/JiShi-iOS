@@ -4,5 +4,22 @@
 
 import Foundation
 
-class EduRoomResult {
+struct Room: Codable {
+    let name: String
+    let building: String
+    let duration: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case name = "JASMC"
+        case building = "JXLDM_DISPLAY"
+        case duration = "KXSJ"
+    }
+}
+
+struct RoomData: Codable {
+    let cxkxjs: EduWrapper<Room>
+}
+
+struct EduRoomResult: Codable {
+    let datas: RoomData
 }
