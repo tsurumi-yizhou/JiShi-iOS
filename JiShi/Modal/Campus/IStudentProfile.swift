@@ -10,7 +10,7 @@ struct IStudentProfile: Codable {
     let school: String
     let majority: String
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case number = "XH"
         case name = "XM"
         case school = "DWMC"

@@ -9,7 +9,7 @@ struct Term: Codable {
     let year: String
     let date: String
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case term = "XQ"
         case year = "XN"
         case date = "XQKSRQ"

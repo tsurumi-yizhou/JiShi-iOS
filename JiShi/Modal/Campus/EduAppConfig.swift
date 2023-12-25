@@ -24,7 +24,7 @@ struct EduAppConfig: Codable {
     let header: Header
     let modules: [Module]
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case appId = "APP_ID"
         case header = "HEADER"
         case modules = "MODULES"

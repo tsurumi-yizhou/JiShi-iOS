@@ -22,7 +22,7 @@ struct Exam: Codable {
     let exam: String
     let uuid: String
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case classroom = "JASMC"
         case datetime = "KSSJMS"
         case discipline = "TSYYDM_DISPLAY"

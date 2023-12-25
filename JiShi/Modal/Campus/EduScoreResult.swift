@@ -14,7 +14,7 @@ struct Score: Codable {
     let type: String
     let weight: Double
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case school = "KKDWDM_DISPLAY"
         case term = "XNXQDM"
         case id = "XSKCH"

@@ -15,7 +15,7 @@ struct Lesson: Codable {
     let building: String?
     let weekRange: String
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case code = "ZYDM"
         case school = "DWDM_DISPLAY"
         case startNum = "KSJC"

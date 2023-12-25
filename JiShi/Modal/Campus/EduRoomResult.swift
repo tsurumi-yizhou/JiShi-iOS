@@ -9,7 +9,7 @@ struct Room: Codable {
     let building: String
     let duration: String
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case name = "JASMC"
         case building = "JXLDM_DISPLAY"
         case duration = "KXSJ"
