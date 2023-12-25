@@ -1,5 +1,5 @@
 //
-//  RssService.swift
+//  RssRepository.swift
 //  JiShi
 //
 //  Created by yizhou on 23/12/2023.
@@ -8,7 +8,7 @@
 import Foundation
 import Factory
 
-class RssService {
+class RssRepository {
     @Injected(\.channelDao) private var channelDao
     @Injected(\.articleDao) private var articleDao
     @Injected(\.httpClient) private var httpClient
@@ -16,7 +16,7 @@ class RssService {
 }
 
 extension Container {
-    var rssService: Factory<RssService> {
-        Factory(self) { RssService() }
+    var rssRepository: Factory<RssRepository> {
+        Factory(self) { RssRepository() }
     }
 }

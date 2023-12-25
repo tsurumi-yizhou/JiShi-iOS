@@ -29,7 +29,7 @@ enum Pages: Equatable {
 
 @main
 struct MainApp: App {
-    @StateObject var pilot = UIPilot(initial: Pages.HOME_LIST)
+    @StateObject var pilot = UIPilot(initial: Pages.WELCOME)
     var body: some Scene {
         WindowGroup {
             UIPilotHost(pilot) { route in

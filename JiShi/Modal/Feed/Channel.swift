@@ -5,7 +5,7 @@
 import Foundation
 import WCDBSwift
 
-class Channel: TableCodable {
+final class Channel: TableCodable {
     let id: String? = nil
     let title: String? = nil
     let subtitle: String? = nil

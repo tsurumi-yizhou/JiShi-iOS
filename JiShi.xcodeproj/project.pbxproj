@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		1D3D01BDD96E9E73272F8A54 /* Pods_JiShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1313B543935665B204C0EE /* Pods_JiShi.framework */; };
 		3618933E2B37BB99006E8299 /* EduWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3618933D2B37BB99006E8299 /* EduWrapper.swift */; };
+		363C8B1F2B3874D20009A5D7 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B1E2B3874D20009A5D7 /* UserRepository.swift */; };
+		363C8B212B3874F00009A5D7 /* ExamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B202B3874F00009A5D7 /* ExamRepository.swift */; };
+		363C8B232B3874FB0009A5D7 /* LessonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B222B3874FB0009A5D7 /* LessonRepository.swift */; };
+		363C8B252B3875070009A5D7 /* RoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B242B3875070009A5D7 /* RoomRepository.swift */; };
+		363C8B272B3875130009A5D7 /* ScoreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B262B3875130009A5D7 /* ScoreRepository.swift */; };
+		363C8B292B38755A0009A5D7 /* RssRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B282B38755A0009A5D7 /* RssRepository.swift */; };
+		363C8B2B2B3875810009A5D7 /* HallRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B2A2B3875810009A5D7 /* HallRepository.swift */; };
+		363C8B2F2B3990800009A5D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C8B2E2B3990800009A5D7 /* Result.swift */; };
 		366FFCCD2B3809D0001FA11D /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCCC2B3809D0001FA11D /* CalendarHelper.swift */; };
 		366FFCD22B380BF3001FA11D /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCD12B380BF3001FA11D /* WelcomeScreen.swift */; };
 		366FFCD42B380BFE001FA11D /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FFCD32B380BFE001FA11D /* WelcomeViewModel.swift */; };
@@ -42,7 +50,6 @@
 		36AF9E562B37382D000142B6 /* ArticleDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E552B37382D000142B6 /* ArticleDao.swift */; };
 		36AF9E582B3738CC000142B6 /* CasService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E572B3738CC000142B6 /* CasService.swift */; };
 		36AF9E5A2B3738D5000142B6 /* EduService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E592B3738D5000142B6 /* EduService.swift */; };
-		36AF9E5C2B3738F0000142B6 /* RssService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E5B2B3738F0000142B6 /* RssService.swift */; };
 		36AF9E5E2B373900000142B6 /* HallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF9E5D2B373900000142B6 /* HallService.swift */; };
 		36FF0E3A2B3601C6003B027F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FF0E392B3601C6003B027F /* Assets.xcassets */; };
 		36FF0E3D2B3601C6003B027F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FF0E3C2B3601C6003B027F /* Preview Assets.xcassets */; };
@@ -69,6 +76,14 @@
 /* Begin PBXFileReference section */
 		18A7453061ABB55B4A9CD85E /* Pods-JiShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiShi.debug.xcconfig"; path = "Target Support Files/Pods-JiShi/Pods-JiShi.debug.xcconfig"; sourceTree = "<group>"; };
 		3618933D2B37BB99006E8299 /* EduWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduWrapper.swift; sourceTree = "<group>"; };
+		363C8B1E2B3874D20009A5D7 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		363C8B202B3874F00009A5D7 /* ExamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamRepository.swift; sourceTree = "<group>"; };
+		363C8B222B3874FB0009A5D7 /* LessonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonRepository.swift; sourceTree = "<group>"; };
+		363C8B242B3875070009A5D7 /* RoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRepository.swift; sourceTree = "<group>"; };
+		363C8B262B3875130009A5D7 /* ScoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRepository.swift; sourceTree = "<group>"; };
+		363C8B282B38755A0009A5D7 /* RssRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssRepository.swift; sourceTree = "<group>"; };
+		363C8B2A2B3875810009A5D7 /* HallRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallRepository.swift; sourceTree = "<group>"; };
+		363C8B2E2B3990800009A5D7 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		366FFCCC2B3809D0001FA11D /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		366FFCD12B380BF3001FA11D /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		366FFCD32B380BFE001FA11D /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
@@ -103,7 +118,6 @@
 		36AF9E552B37382D000142B6 /* ArticleDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDao.swift; sourceTree = "<group>"; };
 		36AF9E572B3738CC000142B6 /* CasService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasService.swift; sourceTree = "<group>"; };
 		36AF9E592B3738D5000142B6 /* EduService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduService.swift; sourceTree = "<group>"; };
-		36AF9E5B2B3738F0000142B6 /* RssService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssService.swift; sourceTree = "<group>"; };
 		36AF9E5D2B373900000142B6 /* HallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallService.swift; sourceTree = "<group>"; };
 		36FF0E392B3601C6003B027F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36FF0E3C2B3601C6003B027F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -349,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				36AF9E442B3715E1000142B6 /* HttpClient.swift */,
+				363C8B2E2B3990800009A5D7 /* Result.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -512,6 +527,7 @@
 			isa = PBXGroup;
 			children = (
 				36AF9E572B3738CC000142B6 /* CasService.swift */,
+				363C8B1E2B3874D20009A5D7 /* UserRepository.swift */,
 			);
 			path = Cas;
 			sourceTree = "<group>";
@@ -520,6 +536,10 @@
 			isa = PBXGroup;
 			children = (
 				36AF9E592B3738D5000142B6 /* EduService.swift */,
+				363C8B202B3874F00009A5D7 /* ExamRepository.swift */,
+				363C8B222B3874FB0009A5D7 /* LessonRepository.swift */,
+				363C8B242B3875070009A5D7 /* RoomRepository.swift */,
+				363C8B262B3875130009A5D7 /* ScoreRepository.swift */,
 			);
 			path = Edu;
 			sourceTree = "<group>";
@@ -529,7 +549,7 @@
 			children = (
 				36AF9E532B3736EF000142B6 /* ChannelDao.swift */,
 				36AF9E552B37382D000142B6 /* ArticleDao.swift */,
-				36AF9E5B2B3738F0000142B6 /* RssService.swift */,
+				363C8B282B38755A0009A5D7 /* RssRepository.swift */,
 			);
 			path = Rss;
 			sourceTree = "<group>";
@@ -538,6 +558,7 @@
 			isa = PBXGroup;
 			children = (
 				36AF9E5D2B373900000142B6 /* HallService.swift */,
+				363C8B2A2B3875810009A5D7 /* HallRepository.swift */,
 			);
 			path = Hall;
 			sourceTree = "<group>";
@@ -673,10 +694,10 @@
 				36FF0E782B360370003B027F /* Channel.swift in Sources */,
 				3618933E2B37BB99006E8299 /* EduWrapper.swift in Sources */,
 				36FF0E792B360370003B027F /* Article.swift in Sources */,
-				36AF9E5C2B3738F0000142B6 /* RssService.swift in Sources */,
 				36AF9E452B3715E1000142B6 /* HttpClient.swift in Sources */,
 				366FFCD42B380BFE001FA11D /* WelcomeViewModel.swift in Sources */,
 				366FFCF02B380CCB001FA11D /* ExamScreen.swift in Sources */,
+				363C8B232B3874FB0009A5D7 /* LessonRepository.swift in Sources */,
 				36FF0E6B2B360370003B027F /* EduTermResult.swift in Sources */,
 				366FFCF82B380CF0001FA11D /* ScoreScreen.swift in Sources */,
 				366FFD022B380D60001FA11D /* AboutScreen.swift in Sources */,
@@ -690,14 +711,19 @@
 				366FFD122B380DB0001FA11D /* SubscriptionViewModel.swift in Sources */,
 				366FFD102B380DA5001FA11D /* SubscriptionScreen.swift in Sources */,
 				366FFCFA2B380CF9001FA11D /* ScoreViewModel.swift in Sources */,
+				363C8B292B38755A0009A5D7 /* RssRepository.swift in Sources */,
 				36FF0E752B360370003B027F /* User.swift in Sources */,
 				36FF0E732B360370003B027F /* EduQueryResult.swift in Sources */,
 				36FF0E712B360370003B027F /* EduScoreResult.swift in Sources */,
 				36FF0E6A2B360370003B027F /* EduBuildingResult.swift in Sources */,
+				363C8B252B3875070009A5D7 /* RoomRepository.swift in Sources */,
 				36AF9E542B3736EF000142B6 /* ChannelDao.swift in Sources */,
 				366FFD0C2B380D91001FA11D /* PrivacyScreen.swift in Sources */,
 				36FF0E7D2B360370003B027F /* ClassDetail.swift in Sources */,
 				366FFCDC2B380C30001FA11D /* NewsDetailScreen.swift in Sources */,
+				363C8B1F2B3874D20009A5D7 /* UserRepository.swift in Sources */,
+				363C8B2F2B3990800009A5D7 /* Result.swift in Sources */,
+				363C8B2B2B3875810009A5D7 /* HallRepository.swift in Sources */,
 				36FF0E702B360370003B027F /* EduRoomResult.swift in Sources */,
 				36FF0E742B360370003B027F /* EduLessonResult.swift in Sources */,
 				36FF0E6F2B360370003B027F /* EduResource.swift in Sources */,
@@ -706,10 +732,12 @@
 				366FFCCD2B3809D0001FA11D /* CalendarHelper.swift in Sources */,
 				36FF0E7B2B360370003B027F /* Homework.swift in Sources */,
 				366FFD042B380D69001FA11D /* CampusLoginScreen.swift in Sources */,
+				363C8B212B3874F00009A5D7 /* ExamRepository.swift in Sources */,
 				36AF9E582B3738CC000142B6 /* CasService.swift in Sources */,
 				36FF0E7C2B360370003B027F /* LessonList.swift in Sources */,
 				366FFCE12B380C50001FA11D /* HomeListScreen.swift in Sources */,
 				366FFCF22B380CD3001FA11D /* ExamViewModel.swift in Sources */,
+				363C8B272B3875130009A5D7 /* ScoreRepository.swift in Sources */,
 				36AF9E5E2B373900000142B6 /* HallService.swift in Sources */,
 				366FFD0A2B380D88001FA11D /* CardLoginViewModel.swift in Sources */,
 				366FFD082B380D7E001FA11D /* CardLoginScreen.swift in Sources */,
